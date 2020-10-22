@@ -17,7 +17,7 @@ namespace ChristmasWithTypes
             xmas.Presents =  new string[3]{ }; 
 
             //TODO Set the TreeHeight to 10
-            xmas.TreeHeight = null;
+            xmas.TreeHeight = 10;
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
